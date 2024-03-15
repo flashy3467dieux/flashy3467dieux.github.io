@@ -7,21 +7,21 @@ h1 {
 	text-align: center;
 }
 
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+}
 
 .rang {
 	font-size: 30px;
-	/*display: inline-block;*/
-	background-color: blue;
 }
 
 .listeRang {
 	display: inline-block;
-	background-color: grey;
-	/*overflow-y: scroll;*/
+	background-color: grey; /* Changer la couleur de fond en gris */
+	overflow-y: scroll;
 	height: 500px;
 }
 
 img {
-	display: inline-block;
+	background-color: grey; /* Changer la couleur de fond en gris pour les images */
 }
